@@ -1,0 +1,68 @@
+body {
+  background-color: white;
+  color: pink;
+  font-family:calibri;
+  font-size:20px;
+}
+
+h1 {
+  color:hotpink;
+  font-family:courier;
+  font-weight:200;
+  letter-spacing:3px;
+  font-size:50px;
+  text-transform:uppercase;
+} 
+
+div {
+   background:white;
+   padding:60px;
+   margin:10px;
+   box-shadow:3px 4px 13px rgba(0, 0, 0, 1);
+   boder-raduis:6px;
+}   
+
+
+/* Custom design with class */
+.container{
+	width:700px;
+	margin: 40px auto;
+}
+
+@media (max-width 500px) {
+
+.container {
+	width: 400px;
+}
+
+
+}
+
+.card-white {
+	text-align:center;
+}
+.img-cirle{
+	border-raduis: 50%;
+}
+
+.btn-blue {
+	backgroung-color: #6B72E1;
+	color: white;
+	padding:15px 20px;
+	border-raduis:6px;
+
+}
+.btn-blue:hover{ 
+background-color: black;
+color: white;
+}
+
+
+
+
+
+
+
+
+
+
